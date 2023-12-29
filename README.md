@@ -66,5 +66,6 @@ build.gradle 구성 내용 설명
 ### 패키지경로 수정 & logback 로그 설정
 * 현재 기본값인 `com.slicequeue.project` 명 적절하게 변경, 테스트 경로 까지 동일하게 변경 진행해야함
   * 각 개발 도구의 패키지 rename 기능을 활용하여 처리할 것
+* ProjectApplication 클래스명 수정 위 프로젝트 명에 따라서 수정, 테스트에 동일하게 위치한 테스트 클래스명도 수정
 * 위 액티브프로파일설정에서 main.resources.logback-local.xml 파일 수정
   * 31번 라인 관련하여 적절하게 로그 나올 수 있도록 프로젝트 패키지 경로 지정 필요
